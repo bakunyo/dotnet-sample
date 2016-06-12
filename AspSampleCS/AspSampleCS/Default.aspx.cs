@@ -13,5 +13,10 @@ namespace AspSampleCS
         {
 
         }
+
+        protected void Button1_SendName(object sender, EventArgs e)
+        {
+            Label1.Text = TextBox1.Text + ", welcome to Visual Studio!";
+        }
     }
 }
