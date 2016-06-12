@@ -11,7 +11,14 @@ namespace AspSampleCS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Page.IsPostBack)
+            {
+                CaptionLabel.Text = "Enter another number: ";
+            }
+            else
+            {
+                CaptionLabel.Text = "Enter a number: ";
+            }
         }
 
         protected void SquareButton_Click(object sender, EventArgs e)
