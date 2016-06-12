@@ -32,7 +32,7 @@ namespace AspSampleCS
         int Square(int number)
         {
             int Square;
-            Square = number + number;
+            Square = number * number;
             return Square;
         }
     }
