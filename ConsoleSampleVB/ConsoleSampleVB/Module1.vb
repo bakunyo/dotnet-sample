@@ -20,6 +20,15 @@
                 Console.WriteLine("2")
         End Select
 
+        Dim sum As Integer
+        For j As Integer = 1 To 10
+            sum += j
+            If j > 5 Then
+                Exit For
+            End If
+        Next
+        Console.WriteLine(sum)
+
         Console.ReadLine()
     End Sub
 
