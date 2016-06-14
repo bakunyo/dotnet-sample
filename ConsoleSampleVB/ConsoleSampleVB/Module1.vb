@@ -20,16 +20,21 @@
                 Console.WriteLine("2")
         End Select
 
-        Dim sum As Integer
-        For j As Integer = 1 To 10
-            sum += j
-            If j > 5 Then
-                Exit For
-            End If
-        Next
+        Dim sum As Integer = SumTo(10)
         Console.WriteLine(sum)
 
         Console.ReadLine()
     End Sub
+
+    Private Function SumTo(ByVal max As Integer) As Integer
+        Dim sum As Integer
+        For i As Integer = 1 To max
+            sum += i
+            If i > 5 Then
+                Exit For
+            End If
+        Next
+        Return sum
+    End Function
 
 End Module
