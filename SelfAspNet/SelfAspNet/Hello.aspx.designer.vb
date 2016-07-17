@@ -48,4 +48,22 @@ Partial Public Class Hello
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblGreet As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''parts1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents parts1 As Global.SelfAspNet.parts
+    
+    '''<summary>
+    '''parts21 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents parts21 As Global.SelfAspNet.parts2
 End Class
