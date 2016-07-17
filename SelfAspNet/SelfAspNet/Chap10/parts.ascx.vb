@@ -5,4 +5,13 @@
 
     End Sub
 
+    Private myName As String
+    Public Property Name() As String
+        Get
+            Return myName
+        End Get
+        Set(ByVal value As String)
+            myName = value
+        End Set
+    End Property
 End Class

@@ -5,6 +5,8 @@
         If Not Page.IsPostBack Then
             txtName.Text = "権兵衛"
         End If
+
+        parts1.Name = "test"
     End Sub
 
     Protected Sub btnSend_Click(sender As Object, e As EventArgs) Handles btnSend.Click
